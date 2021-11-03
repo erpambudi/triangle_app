@@ -10,7 +10,7 @@ void main() {
     });
 
     test('Should return "Segitiga Sama Sisi" when all sides are equal', () {
-      expect(detectTriangle(1, 1, 3), "Segitiga Sama Sisi");
+      expect(detectTriangle(1, 1, 1), "Segitiga Sama Sisi");
       expect(detectTriangle(1, 1, 2), isNot("Segitiga Sama Sisi"));
     });
   });
